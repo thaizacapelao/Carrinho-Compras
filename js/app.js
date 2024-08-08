@@ -13,7 +13,6 @@ carrinho.innerHTML = `<section class="carrinho__produtos__produto">
 </section>`
 // adicionar no carrinho
 // atualizar o valor total da compra
-
 let valorTotal = document.getElementById('valor-total');
 
 valorTotal.innerHTML = `<span class="texto-azul" id="valor-total">R$${preco}</span>`
